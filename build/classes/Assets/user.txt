@@ -1,0 +1,4 @@
+create table userinfo(UserName varchar(50),Password varchar(50),ShopName varchar(50),Email varchar(50),MobileNo varchar(10),OwnerName varchar(50));
+create table PurcahseTransactions(MobileNo varchar(10),DealerName varchar(50),Date date,TotalAmount int,UserName varchar(50));
+create table items(ItemName varchar(50),Category varchar(50),Qauntity int,PurchasePrice int,SalePrice int,UserName varchar(50));
+create table SellTransactions(MobileNo varchar(10),CustomerName varchar(50),Date date,TotalAmount int,UserName varchar(50));
